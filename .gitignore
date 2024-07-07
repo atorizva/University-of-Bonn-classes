@@ -1,0 +1,24 @@
+# Data
+data/
+*.npy  # Numpy
+*.mat  # MATLAB
+*.ply  # PointClouds
+
+# IDE
+.vscode/
+
+# C++
+open3d/  # Dependency
+*Makefile
+build/
+CMakeFiles/
+.cache/
+*.cmake
+*.make
+*.marks
+*.exe
+
+
+# Python
+__pycache__/
+venv/
